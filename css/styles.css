@@ -1,0 +1,87 @@
+/* Variables */
+
+:root {
+    --green-color: #CAF7E3;
+    --pink-color: #F6DFEB;
+}
+
+body {
+    margin: 0;
+}
+
+#title {
+    height: 100%;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 1% 6%;
+}
+
+/* Sections ¨*/
+
+.colored-section {
+    background-color: var(--pink-color);
+    color: #FFF;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 1.5rem;
+}
+
+.navbar-brand {
+    /* font-family: "Ubuntu"; */
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    /* font-size: 1.2rem;
+    font-weight: 100; */
+    color: #fff !important
+}
+
+.nav-link:hover {
+    color: var(--green-color) !important
+}
+
+/* Presentation Section */
+
+#presentation {
+    height: 70vh;
+    padding: 10px 0 20px
+}
+
+#presentation-carousel {
+    width: 80%;
+    margin: auto;
+}
+
+.presentation-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.welcome-item {
+    background-image: url(../assets/welcome-opaque.png);
+}
+
+.products-item {
+    background-image: url(../assets/products-opaque.png);
+}
+
+.services-item {
+    background-image: url(../assets/services-opaque.png);
+}
+
+.carousel-item {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
