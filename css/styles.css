@@ -15,7 +15,7 @@ body {
 
 /* Containers */
 .container-fluid {
-    padding: 1% 6%;
+    padding: 1% 4%;
 }
 
 /* Sections ¨*/
@@ -69,8 +69,13 @@ body {
 }
 
 .presentation-text {
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 1.5;
+}
+
+.presentation-description {
+    font-size: 1.5rem;
+    line-height: 1;
 }
 
 .welcome-item {
@@ -160,4 +165,16 @@ body {
 .social-icon:hover {
     color: var(--green-color);
     cursor: pointer;
+}
+
+.add-btn {
+    background-color: var(--pink-color);
+}
+
+.add-btn:hover {
+    color: #fff
+}
+
+.price {
+    color: var(--green-color);
 }
