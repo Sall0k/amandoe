@@ -150,6 +150,7 @@ body {
     font-weight: 600;
     color: #fff;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 /* Footer Section */
@@ -160,12 +161,15 @@ body {
 
 .social-icon {
     margin: 20px 10px;
+    color: #fff
 }
 
 .social-icon:hover {
     color: var(--green-color);
     cursor: pointer;
 }
+
+/* Products */
 
 .add-btn {
     background-color: var(--pink-color);
@@ -177,4 +181,15 @@ body {
 
 .price {
     color: var(--green-color);
+}
+
+@media screen and (max-width: 992px) {
+    .presentation-text {
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+
+    .presentation-description {
+        font-size: 1rem;
+    }
 }
